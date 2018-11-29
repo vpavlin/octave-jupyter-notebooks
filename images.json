@@ -48,7 +48,8 @@
                         "from": {
                             "kind": "DockerImage",
                             "name": "quay.io/vpavlin/octave-python-36-centos7:latest"
-                        }
+                        },
+                        "forcePull": true 
                     }
                 },
                 "output": {
